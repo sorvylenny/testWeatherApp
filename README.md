@@ -47,7 +47,7 @@ This project uses the following dependencies:
 To run this project locally, follow these steps:
 
 1. Ensure you have Node.js and Angular CLI installed [Node.js](https://nodejs.org/) y [Angular CLI](https://github.com/angular/angular-cli).
-2. Clone this repository to your local machine: (`https://github.com/sorvylenny/`)
+2. Clone this repository to your local machine: (`https://github.com/sorvylenny/testWeatherApp`)
 3. Navigate to the project folder and run npm install to install the dependencies. `npm install`
 4. Once the installation is complete, run  `ng serve` to start the development server.
 5. Open your browser and visit  `http://localhost:4200/`  to view the application.
@@ -55,6 +55,7 @@ To run this project locally, follow these steps:
 
 ### Project Structure
 
+```
 test-weather-app/
 ├── src/
 │   ├── app/
@@ -78,6 +79,7 @@ test-weather-app/
 ├── angular.json
 ├── package.json
 └── README.md
+```
 
 ## Build and Deployment
 
