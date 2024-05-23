@@ -1,0 +1,65 @@
+
+.title_weather {
+  font-size: 2.5em;
+  color:  #0c45e2;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-shadow: 4px 4px 4px #5AB2FF ;
+  text-align: center;
+  font-family: "Sedan", serif;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-family: "Sedan", serif;
+}
+
+canvas {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  max-width: 90%;
+  height: auto;
+}
+
+.gif-weather {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  background-image: url('/assets/image/sun-Clouds.gif');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.button-weather {
+  display: block;
+  font-family: "Sedan", serif;
+  justify-content: flex-end;
+  padding: 5px 20px;
+  font-size: 1.5em;
+  color: #007bff;
+  background-color: #fff;
+  border: 2px solid #007bff;
+  border-radius: 15px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.button-weather:hover,
+.button-weather:focus {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.button-weather:active {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
